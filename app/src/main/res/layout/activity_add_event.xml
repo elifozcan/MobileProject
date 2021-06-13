@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddEventActivity">
+
+
+    <EditText
+        android:id="@+id/add_event_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="150dp"
+        android:ems="10"
+        android:hint="Etkinlik Adı" />
+
+    <EditText
+        android:id="@+id/add_event_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/add_event_name"
+        android:layout_marginTop="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:ems="10"
+        android:hint="Etkinlik Tipi"/>
+
+    <EditText
+        android:id="@+id/add_event_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/add_event_type"
+        android:layout_marginTop="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:ems="10"
+        android:hint="Etkinlik Yeri"/>
+
+    <EditText
+        android:id="@+id/add_event_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/add_event_location"
+        android:layout_marginTop="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:ems="10"
+        android:hint="Etkinlik Tarihi"
+        android:inputType="date"
+         />
+
+    <Button
+        android:id="@+id/add_event_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/add_event_date"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="125dp"
+        android:layout_marginRight="125dp"
+        android:textColor="@color/white"
+        android:background="@color/purple_500"
+        android:text="Oluştur" />
+
+</RelativeLayout>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddCombineActivity">
+
+    <EditText
+        android:id="@+id/add_combine_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="30dp"
+        android:hint="Combin Adı"
+        android:ems="10" />
+
+    <ImageView
+        android:id="@+id/add_hat"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@+id/add_combine_name"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="250dp" />
+
+    <Button
+        android:id="@+id/image_button_hat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/add_combine_name"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginRight="70dp"
+        android:text="Resim Seç" />
+    <ImageView
+        android:id="@+id/add_face"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@+id/add_hat"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="250dp" />
+
+    <Button
+        android:id="@+id/image_button_face"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/add_hat"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginRight="70dp"
+        android:text="Resim Seç" />
+
+    <ImageView
+        android:id="@+id/add_top"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@+id/add_face"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="250dp" />
+
+    <Button
+        android:id="@+id/image_button_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/add_face"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginRight="70dp"
+        android:text="Resim Seç" />
+
+    <ImageView
+        android:id="@+id/add_pants"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@+id/add_top"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="250dp" />
+
+    <Button
+        android:id="@+id/image_button_pants"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/add_top"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginRight="70dp"
+        android:text="Resim Seç" />
+
+    <ImageView
+        android:id="@+id/add_shoe"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@+id/add_pants"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="250dp" />
+
+    <Button
+        android:id="@+id/image_button_shoe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/add_pants"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginRight="70dp"
+        android:text="Resim Seç" />
+
+    <Button
+        android:id="@+id/combine_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/add_shoe"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:text="Kaydet" />
+
+
+</RelativeLayout>
